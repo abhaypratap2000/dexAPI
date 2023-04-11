@@ -1,0 +1,30 @@
+{
+  "name": "version8uniswapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@types/node": "^18.11.9",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-rc.1",
+    "solhint": "^3.3.7",
+    "solidity-coverage": "^0.8.2",
+    "web3": "^1.8.2",
+    "web3-eea": "^0.11.0"
+  }
+}
